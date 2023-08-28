@@ -315,3 +315,78 @@ footer p{
     }
 
 }
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.sec{
+display: grid;
+grid-template-columns: 65% 35%;
+background-color: rgb(241,241,241);
+}
+.sec .parent1{
+ grid-column-start: 1;  
+ grid-column-end: 2; 
+}
+.sec .parent1 .fille1 header{
+text-align: center;
+padding:20px ;
+}
+.sec .parent1 .fille1 header h2{
+    padding: 10px;
+}
+.sec .parent1 .fille1 .class-image img{
+    width: 90%;
+    margin: 40px;
+}
+.fille1{
+    background-color: white;
+    margin-bottom: 50px;
+}
+.fille1 .class-text p{
+    margin: 40px;
+}
+.fille1 .but{
+    display: flex;
+    justify-content: space-between;
+}
+.but .sau{
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    border: 1px black solid;
+}
+.but .sau p{
+    margin: 5px;
+}
+.but .sau .fa-solid{
+    margin: 5px;
+}
+.but .par{
+    margin: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.but .par p{
+    margin: 5px;
+}
+.but .par p span{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.div-footer{
+    display: flex;
+}
+.div-footer img{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+.div-footer .go{
+    margin: 60px 0 0 ;
+}
+.go h3{
+    padding-bottom: 18px;
+}
